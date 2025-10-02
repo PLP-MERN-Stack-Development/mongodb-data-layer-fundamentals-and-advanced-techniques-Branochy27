@@ -1,3 +1,15 @@
+![WhatsApp Image 2025-10-03 at 01 46 56_1630c2d6](https://github.com/user-attachments/assets/bbdbc6b1-d26e-4390-bb0c-a95426d1e718)
+
+
+
+
+
+
+
+
+
+
+
 MongoDB Book Collection Management System
 A comprehensive MongoDB database system for managing a book collection 
 CRUD operations 
@@ -55,4 +67,5 @@ db.books.find({ published_year: { $gt: 2000 } }).pretty()
 db.books.find(
   { published_year: { $gt: 2010 } },
   { title: 1, author: 1, published_year: 1, _id: 0 }
+
 ).pretty()
