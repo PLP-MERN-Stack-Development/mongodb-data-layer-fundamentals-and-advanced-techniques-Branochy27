@@ -2,6 +2,8 @@
 
 
 
+#  During this project i decided to use mongodb compass 
+
 
 
 
@@ -69,3 +71,4 @@ db.books.find(
   { title: 1, author: 1, published_year: 1, _id: 0 }
 
 ).pretty()
+
